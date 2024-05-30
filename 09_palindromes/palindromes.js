@@ -23,8 +23,6 @@ const palindromes = function (string) {
     .filter((element) => !punctuations.includes(element))
     .join("");
   reversedString = cleanedString.split("").reverse().join("");
-  console.log(cleanedString);
-  console.log(reversedString);
   return cleanedString === reversedString;
 };
 
